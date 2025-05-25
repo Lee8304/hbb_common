@@ -73,12 +73,6 @@ lazy_static::lazy_static! {
         map.insert("password".to_string(), "Nbysw3a1".to_string());
         RwLock::new(map)
     };
-
-====================================
-文章作者： 皮蛋熊
-文章来源： 蔚然小站
-文章链接： https://blog.kkk.rs/archives/37
-版权声明： 内容遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
     pub static ref BUILTIN_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
 }
 
